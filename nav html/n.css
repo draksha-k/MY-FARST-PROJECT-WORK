@@ -1,0 +1,78 @@
+{font-faimily:Arial;
+margin:0;
+}
+.navbar{
+    background-color:#333;
+    padding:10px;
+}
+.navbar a:hover{
+    background-color:orange;
+    padding:5px;
+}
+.section{
+    disply:none;
+    pading:20px;
+}
+# home{
+     disply:block;
+     text-align:center ;
+}
+.login-box{
+    width:300px ;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gray;
+     text-align:center ;
+}
+input{
+    widh:90%;
+    padding: 8px;
+}
+button{
+    padding: 8px 15px;
+    background-color: green;
+    color:white;
+    border: none;
+}
+<body>
+<div class="navbar">
+<a onclick="showsection('home')">home</a>
+<a onclick="showsection('insert')">insert</a>
+<a onclick="showsection('contact')">contact</a>
+<a onclick="showsection('login')">login</a>
+</div>
+<div id="home"class="section">
+<h1>home page</h1>
+<p>welcome to website</p>
+</div>
+<div id="insert"class="section">
+<h1>insert page</h1>
+<p>insert content here</p>
+</div>
+<div id="contact"class="section">
+<h1>contact page</h1>
+<p>contact details here</p>
+</div>
+<div id="login"class="section">
+<div class="login box">
+<h1>login</h1>
+<input type="text"id="userid"::placeholder="enter user id"><br><br>
+<input type="text"id="password"::placeholder="enter password"><br><br>
+<button onclick="login()"submit</button>
+</div>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
